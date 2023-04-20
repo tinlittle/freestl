@@ -17,3 +17,7 @@ C++23+ Free standing STL reimplementation
 1. How to make lock step progresses between container and algorithms
 2. How many utilities, but std and details would be needed along each milestone
 3. Maybe start with something simpler first, like pair, tuple, array, etc.
+
+## Considerations for modern C++ style
+
+1. Use consteval instead of constexpr wherever it is applicable (https://github.com/microsoft/STL/discussions/3604)
