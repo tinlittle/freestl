@@ -1,5 +1,5 @@
 # freestl
-C++23+ Free standing STL reimplementation
+Post-modern C++23+ Free standing STL reimplementation
 
 ## Roadmap for ```std::vector```
 
@@ -21,3 +21,10 @@ C++23+ Free standing STL reimplementation
 ## Considerations for modern C++ style
 
 1. Use consteval instead of constexpr wherever it is applicable (https://github.com/microsoft/STL/discussions/3604)
+2. No more legacy iterator_traits, (https://quuxplusone.github.io/blog/2023/01/27/sinkerator/)
+
+## Why post-modern C++ implemenation of STL (partial)
+
+1. Experiment new post-modern C++ programming style. 
+2. Design library the right way
+3. 
